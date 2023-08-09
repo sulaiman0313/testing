@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    border: none;
+    outline: none;
+    
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 28px 11%;
+    border-bottom: 1px solid transparent;
+    transition: all ease .50s;
+}
+.logo img{
+    width: 30px;
+    height: 34px;
+    padding-top: 13px;
+    margin-left: -50px;
+   
+}
+.logo{
+    font-size: 42px;
+    color: aliceblue;
+}
+.logo span{
+    color: greenyellow;
+}
+.navlist{
+    display: flex;
+
+}
+.navlist a{
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 27px;
+
+
+}
+.navlist a:hover{
+    color: greenyellow;
+}
+#menu-icon{
+    color: greenyellow;
+    font-size: 42px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+section{
+    padding: 120px 19% 100px;
+}
+.home{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background: url(karsten1.jpg);
+    background-size: 100%;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    margin-top: 90px;
+    height: fit-content;
+    justify-content: flex-start;
+}
+.hero-text h3{
+    color: #FDFFFC;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    word-spacing: 10px;
+}
+.hero-text h1{
+    /* font-family: 'Handjet', cursive; */
+    font-size: 100px;
+    color: #FDFFFC;
+    margin-bottom: 100px;
+    font-weight: 800;
+}
+.hero-text h1 span{
+    color: greenyellow;
+}
+.hero-text h4{
+    color: #FDFFFC;
+    font-size: 40px;
+    font-weight: 600;
+    word-spacing: 15px;
+    margin-bottom: 3.5rem;
+}
+.btn{
+    display: inline-block;
+    padding: 16px 45px;
+    background-color: greenyellow;
+    color: #FDFFFC;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid greenyellow;
+    transition: all ease .50s;
+}
+.btn:hover{
+    color: greenyellow;
+    background: #FDFFFC;
+    transform: translateX(5px);
+    border: 2px solid greenyellow;
+
+}
+span{
+    color: greenyellow;
+}
+header.sticky{
+    padding: 15px 11%;
+    background: #000;
+    border-bottom: 1px solid #4e5055;
+}
+.about{
+    display: flex;
+    grid-template-columns: repeat(auto-fit,minmax(200px auto));
+    align-items: center;
+    gap: 4rem;
+    
+}
+.about-img img{
+    height: auto;
+    width: 100%;
+    border-radius: 101px;
+}
+.about-text h2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.about-text h5{
+    font-size: 22px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+.about-text p{
+    color: aquamarine;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
